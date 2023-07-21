@@ -202,12 +202,13 @@ select {
 }
 .grid-fade-elements {
   display: inline-flex;
-  flex-wrap: nowrap;
-  max-width: 70%;
-  margin-left: 10px;
-  margin-right: 10px;
-  position: relative;
-  justify-content: space-around;
+  justify-content: center;
+  margin-left: 30%;
+}
+.col-3-fade-elements__visible {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
 }
 .style-select {
   padding-top: 20px;
